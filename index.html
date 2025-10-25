@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Starvyn – Graphic Design Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Starvyn – Algerian graphic design studio. Logos, posters, business cards. Payments via CCP." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <!-- Simple wordmark; replace with your PNG if you prefer -->
+      <h1 class="logo">Starvyn</h1>
+      <p class="tag">Inspired By You</p>
+    </div>
+
+    <nav class="main-nav" aria-label="Main">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="works.html" class="nav-link">Works</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-left">
+        <h2>We Craft Visual Identities</h2>
+        <p class="lead">
+          Professional Logos, Posters, Business Cards and Advertisements – Designed in Algeria with precision and creativity.
+        </p>
+        <ul class="services">
+          <li>Logos & Branding</li>
+          <li>Posters & Social Media</li>
+          <li>Business Cards</li>
+          <li>Ads & Campaign Visuals</li>
+        </ul>
+
+        <p class="payment-note">Payments accepted via <strong>CCP</strong> • Local & secure</p>
+
+        <div class="cta-row">
+          <a href="works.html" class="btn primary">See Our Work</a>
+          <a href="contact.html" class="btn outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <!-- placeholder artwork -->
+        <div class="mock-card">
+          <img src="images/Starvyn.png" alt="Sample work" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a1 1 0 000-1.41l-2.34-2.34a1 1 0 00-1.41 0L15 4.59l3.75 3.75 1.96-1.3z"/></svg>
+        <h3>Branding</h3>
+        <p>Custom logos & brand guidelines that speak for your business.</p>
+      </div>
+      <div class="feature">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4v3h5.5v12h3V7H19V4z"/></svg>
+        <h3>Print & Posters</h3>
+        <p>High-resolution posters and materials ready for print.</p>
+      </div>
+      <div class="feature">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 8V7l-3 2-2-1-6 6 1 2 6-6 1 2 2-1 3 2v-1c0-1.1-.9-2-2-2h-2V8h2c.55 0 1-.45 1-1V5c0-1.1-.9-2-2-2h-1v5h2c.55 0 1 .45 1 1z"/></svg>
+        <h3>Ads & Social</h3>
+        <p>Visuals optimized for engagement across platforms.</p>
+      </div>
+    </section>
+
+    <div id="visual-canvas" aria-hidden="true"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Starvyn – Graphic Design Studio • Algeria • Payments via CCP</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
