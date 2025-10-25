@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /private/
 
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://xf1n.github.io/starvyn/sitemap.xml
